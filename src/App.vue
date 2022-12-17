@@ -1,13 +1,15 @@
 <template>
-  <div style="display: flex; flex-direction: row">
-    <div style="flex-basis: 33%">
-      <lista-filmes />
-    </div>
-    <div style="flex-basis: 33%">
-      <lista-pessoas />
-    </div>
-    <div style="flex-basis: 33%">
-      <lista-videogames />
+  <div class="container">
+    <div class="row p-4">
+      <div class="col">
+        <lista-filmes />
+      </div>
+      <div class="col">
+        <lista-pessoas />
+      </div>
+      <div class="col">
+        <lista-videogames />
+      </div>
     </div>
   </div>
 </template>

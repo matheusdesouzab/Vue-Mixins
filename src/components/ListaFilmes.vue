@@ -1,11 +1,15 @@
 <template>
-    <h3>Lista de Filmes</h3>
-    <input type="text" placeholder="Nome do jogo" v-model="item">
-    <button type="button" @click="adicionarItem()">Adicionar</button>
-    <ul>
-        <li v-for="(item, index) in items" :key="index">{{ item }}</li>
+    <h4>Lista de Filmes</h4>
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Nome do filme" aria-label="Recipient's username"
+            aria-describedby="button-addon2" v-model="item">
+        <button class="btn btn-outline-success" type="button" id="button-addon2"
+            @click="adicionarItem()">Adicionar</button>
+    </div>
+    <ul class="list-group mb-3">
+        <li class="list-group-item" v-for="(item, index) in items" :key="index">{{ item }}</li>
     </ul>
-    <button type="button" @click="removerItem">Remover filme</button>
+    <button type="button" class="btn btn-danger py-2 px-3" @click="removerItem()">Remover filme</button>
 </template>
 
 <script>
