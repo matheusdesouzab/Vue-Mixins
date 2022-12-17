@@ -1,24 +1,21 @@
-# mixins
+<h1 align="center">
+  <p align="center">Vue Mixins</p>
+</h1>
 
-## Project setup
-```
-npm install
-```
+## Introdução
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Projeto de estudo desenvolvido a partir do curso de [Desenvolvimento Web Avançado 2022 com Vue (v2 e v3) e Vuex](https://www.udemy.com/course/desenvolvimento-web-avancado-com-vue-strapi-vuex-e-vuetify/). No **Projeto Mixins** foi possível testar as mais diversas formas de criar mixins em VueJs.
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+
+
+
+
+
+
+
+
+
